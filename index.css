@@ -1,3 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
 body {
     margin: 0;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -2.5%;
+    margin-left: 52px;
 }
+
+#random_password {
+    color: #10B981;
+}
+
+h3 {
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+
+#generate_password_btn {
+    background-color: #10B981;
+    color: white;
+    width: 191;
+    height: 42;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 17px;
+    gap: 12px;
+    border-radius: 6px;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#topdiv {
+    border-bottom:2px solid #2F3E53;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 115px;
+    margin-right: 50px;
+    width: 40%;
+}
+
+#bottomdiv {
+    margin-top: 40px;
+    
+}
+
+#new_password1 {
+    display: inline-block;
+    background-color: #273549;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 211;
+    height: 39;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    border-radius: 6px;
+    margin-right: 15px;
+    line-height: 39px;
+    color: #55F991;
+    font-weight: 500;
+}
+
+#new_password2 {
+    display: inline-block;
+    background-color: #273549;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 211;
+    height: 39;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+    border-radius: 6px;
+    margin-right: 15px;
+    line-height: 39px;
+    color: #55F991;
+    font-weight: 500;
+}
+
+
+
+

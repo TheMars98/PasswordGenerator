@@ -3,10 +3,16 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>Generate a</h1>
-		<h1>random password</h1>
-		<h3>never use an insecure password again.</h3>
-        <button>Generate passwords</button>
+        <div id="topdiv">
+            <h1>Generate a</h1>
+            <h1 id="random_password">random password</h1>
+            <h3>never use an insecure password again.</h3>
+            <button id="generate_password_btn" onclick="givePasswords()">Generate passwords</button>
+        </div>
+        <div>
+            <h3 id="new_password1"></h3>
+            <h3 id="new_password2"></h3>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
